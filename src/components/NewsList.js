@@ -2,7 +2,6 @@ import React from "react";
 
 import {Component} from "react";
 import ItemNews from "./ItemNews/ItemNews";
-import {newsCreat} from "../redux/actionCreators/newNewsAction";
 import {connect} from "react-redux";
 
 

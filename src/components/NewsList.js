@@ -17,7 +17,8 @@ class NewsList_default extends Component {
 
   render() {
     return (
-      <div className="accordion" id="accordionExample" style={{'width': '600px'}}>
+      <div className="accordion" id="accordionExample" style={{'width': '600px',marginTop: '50px'}}>
+        <h3 style={{textAlign: "center"}}>News</h3>
         {this.props.news.map((item)=><ItemNews key={item.date} news={item}/>)}
       </div>
     );

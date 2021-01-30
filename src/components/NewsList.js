@@ -24,6 +24,7 @@ class NewsList_default extends Component {
   }
 }
 
+
 const mapStateToProps=(state)=>({
   news:state.news
 })
